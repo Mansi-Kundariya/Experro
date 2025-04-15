@@ -1,0 +1,234 @@
+.ReactModal__Content.smallReactModal {
+    &.queryBuilderModel{
+    width: 672px;
+    }
+}
+.queryBuilderModel{
+
+        .reactModalBody{
+            padding: 24px;
+            max-height: 360px;
+        }
+        .query-builder-btn{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .toggle-btn{
+            display: flex;
+            .swatch-radio{
+                clip: rect(1px,1px,1px,1px);
+                border: 0;
+                height: 1px;
+                opacity: 0;
+                overflow: hidden;
+                padding: 0;
+                position: absolute;
+                width: 1px;
+                &:checked{
+                    +.swatch-label{
+                        background-color: #2563eb;
+                        color: #ffffff;
+                        border-color: #2563eb;
+                    }
+                }
+            }
+            .swatch-label{
+                display: inline-block;
+                text-align: center;
+                background-color: #ffffff;
+                padding: 5px 8px;
+                border: 1px solid #d1d1d1;
+                border-radius: 4px 0 0 4px;
+                min-width: 48px;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 14px;
+            }
+
+            .toggle-item{
+                
+                &:last-child{
+                    .swatch-label{
+                    border-radius: 0 4px 4px 0;
+                }
+                }
+            }
+        }
+
+        .add_condition_btn{
+            button{
+                background-color: #4F46E5;
+                padding: 5px 8px;
+                border-radius: 4px;
+                color: #ffffff;
+                font-weight: 500;
+                
+                .icon{
+                    vertical-align: inherit;
+                    margin-right: 4px;
+                }
+            }
+        }
+
+        .reactModalFooter{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button{
+                line-height: 18px;
+                font-size: 14px;
+                font-weight: 500;
+                padding: 6px 12px;
+            }
+
+            .cancel-btn{
+                background-color: #ffffff;
+                border: 1px solid #d1d1db;
+            }
+
+            .buttonPrimary{
+                border: 1px solid #4F46E5;
+            }
+        }
+
+        .query-builder-accordion{
+
+            .accordion__item{
+                padding: 12px 8px;
+                border-left: 1px solid #e1e1e8;
+                border-radius: 2px;
+
+                .arrow-right{
+                    margin-right: 8px;
+                    width: 20px;
+                    height: 20px;
+                    margin-top: -2px;
+                }
+
+                .accordion__button{
+                    position: relative;
+                    color: #6C6B80;
+                    cursor: pointer;
+                    .delete-btn{
+                        position: absolute;
+                        top: 50%;
+                        right: 8px;
+                        transform: translateY(-50%);
+                        width: 16px;
+                            height: 16px;
+
+                        button {
+                            background-color: transparent;
+                            padding: 0;
+                            border-radius: 0;
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+
+                            .icon{
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                    &[aria-expanded="true"]{
+                        color: #201F37;
+                        .arrow-right{
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+
+                +.accordion__item{
+                    margin-top: 8px;
+                }
+
+                &:has(.accordion__button[aria-expanded="true"]){
+                    border-left: 2px solid #4F46E5;
+                    border-radius: 0;
+                }
+
+                .accordion__panel {
+                    margin-top: 21px;
+
+                    .input-field{
+                        min-width: 190px;
+                        max-width: 190px;
+                        +.input-field{
+                            margin-left: 24px;
+                        }
+                        &.input-field-condition{
+                            max-width: 125px;
+                            min-width: 125px;
+
+                            .select__control{
+                                min-width: 125px;
+                                max-width: 125px;
+
+                            }
+                        }
+                        &.input-value{
+                            .select__value-container--is-multi{
+                                &.select__value-container--has-value{
+                                    .select__input-container{
+                                        border: 1px solid #d1d1db;
+                                        border-radius: 4px;
+                                        padding: 0 4px;
+                                    }
+                                }
+                            }
+                        }
+                        .input-label {
+                            color: #6c6b80;
+                            display: inline-block;
+                            line-height: 18px;
+                            margin-bottom: 8px;
+                            span{
+                                color: #ff0000;
+                            }
+                        }
+                        select,input {
+                            background-color: transparent;
+                            display: block;
+                            border: 1px solid #d1d1db;
+                            border-radius: 4px;
+                            padding: 9px 12px;
+                            font-size: 14px;
+                            line-height: 18px;
+                            font-weight: 400;
+                            appearance: none;
+                            width: 100%;
+                            color: #9D9CAF;
+                        }
+                        select {
+                            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.59932 5.59908C3.82062 5.37778 4.17941 5.37778 4.40071 5.59908L8.00002 9.19838L11.5993 5.59908C11.8206 5.37778 12.1794 5.37778 12.4007 5.59908C12.622 5.82038 12.622 6.17917 12.4007 6.40047L8.40071 10.4005C8.17941 10.6218 7.82062 10.6218 7.59932 10.4005L3.59932 6.40047C3.37803 6.17917 3.37803 5.82038 3.59932 5.59908Z' fill='%239D9CAF'/%3E%3C/svg%3E");
+                            background-repeat: no-repeat;
+                            background-position: right 12px center;
+                        }
+
+
+                    }
+                }
+
+                .accordion__heading{
+                    &:has(.accordion__button[aria-expanded="true"]){
+                     +.accordion__panel{
+                        display: flex;
+                        justify-content: center;
+                     }   
+                    }
+                }
+
+                
+            }
+
+        }
+
+        .select__indicator-separator{
+            display: none;
+        }
+}
+

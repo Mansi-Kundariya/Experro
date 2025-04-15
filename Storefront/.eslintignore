@@ -1,0 +1,6 @@
+node_modules
+dist
+build
+src/lib/grapejs/grapejs-froala-plugin.js
+src/lib/grapejs/grapesjs-users-blocks.min.js
+src/lib/grapejs/grapejs-tinymce-plugin.js

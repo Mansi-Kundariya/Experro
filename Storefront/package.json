@@ -1,0 +1,80 @@
+{
+  "name": "experro-storefront",
+  "version": "1.2.0",
+  "main": "build/index.js",
+  "types": "build/app-main-index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/experro-com/experro-storefront.git"
+  },
+  "scripts": {
+    "pre-commit": "node lint-check.js && lint-staged",
+    "lint-check": "node lint-check.js",
+    "prebuild": "node lint-check.js",
+    "build": "rollup -c --environment NODE_ENV:production",
+    "build:dev": "rollup -c",
+    "watch": "node scripts/watch.js",
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
+    "test-staged": "npm run lint",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0"
+  },
+  "files": [
+    "build",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "pre-commit": [
+    "test-staged"
+  ],
+  "dependencies": {
+    "grapesjs": "0.21.12",
+    "grapesjs-accordion": "1.0.10",
+    "grapesjs-blocks-basic": "1.0.1",
+    "grapesjs-tabs": "1.0.6",
+    "js-cookie": "3.0.1",
+    "react-accessible-accordion": "5.0.0",
+    "react-color": "2.19.3",
+    "react-froala-wysiwyg": "4.0.17",
+    "react-hot-toast": "2.4.0",
+    "react-jsx-parser": "1.29.0",
+    "react-modal": "3.16.1",
+    "react-router-dom": "6.4.1",
+    "react-select": "5.4.0",
+    "tslib": "2.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "22.0.2",
+    "@rollup/plugin-node-resolve": "14.1.0",
+    "@rollup/plugin-terser": "0.4.3",
+    "@types/js-cookie": "3.0.2",
+    "@types/node": "16.11.45",
+    "@types/react": "18.2.73",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.27.1",
+    "@typescript-eslint/parser": "5.27.1",
+    "chokidar": "3.5.3",
+    "eslint": "8.22.0",
+    "eslint-plugin-react": "7.30.0",
+    "eslint-plugin-react-hooks": "4.5.0",
+    "node-sass": "7.0.3",
+    "pre-commit": "1.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rollup": "2.79.1",
+    "rollup-plugin-copy": "3.4.0",
+    "rollup-plugin-peer-deps-external": "2.2.4",
+    "rollup-plugin-postcss": "4.0.2",
+    "rollup-plugin-typescript2": "0.34.0",
+    "sass": "1.53.0",
+    "ts-jest": "28.0.4",
+    "typescript": "4.7.4",
+    "web-vitals": "4.1.1"
+  },
+  "engines": {
+    "node": "16.16.0"
+  }
+}
