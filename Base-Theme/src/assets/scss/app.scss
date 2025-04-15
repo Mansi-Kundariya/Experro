@@ -1,0 +1,17 @@
+@import 'fonts';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "typography";
+@import "custom-components-layer";
+@import "custom-base-layer";
+@import "form";
+@import "button";
+@import "widget_images";
+@import "rc-slider";
+
+
+.ReactModal__Overlay {
+    @apply flex items-center justify-center h-[100vh] bg-white/50 backdrop-blur-[0.125rem] z-40;
+}

@@ -1,0 +1,501 @@
+{
+    "translation": {
+      "common": {
+        "model_select_msg": "Please select a record",
+        "txt_search":"Search",
+        "txt_submit":"Submit",
+        "txt_update_details":"Update Details",
+        "txt_no_address_msg":"You currently have no addresses added to your profile",
+        "txt_address_type":"Address Type",
+        "txt_phone":"Phone",
+        "txt_edit":"Edit",
+        "txt_delete":"Delete",
+        "txt_new_address":"New Address",
+        "txt_cancel":"Cancel",
+        "txt_save_address":"Save Address",
+        "txt_message":"Messages",
+        "txt_ord_content":"Order Contents",
+        "txt_ord_details":"Order Details",
+        "txt_ord_status":"Order status",
+        "txt_ord_data":"Order date",
+        "txt_ord_total":"Order total",
+        "txt_ord_msg":"You haven't placed any orders with us. When you do, their status will appear on this page.",
+        "txt_payment_method":"Payment method",
+        "txt_payment_status":"Payment Status",
+        "txt_ship_to":"Ship To",
+        "txt_bill_to":"Bill To",
+        "txt_action":"Actions",
+        "txt_reorder":"Reorder",
+        "txt_orders":"Orders",
+        "txt_order":"Order",
+        "txt_product_totaling":"Product totaling",
+        "txt_order_placed":"Order Placed",
+        "txt_last_update":"Last Update",
+        "txt_item_shipped_to":"Items shipped to",
+        "txt_subtotal":"Subtotal",
+        "txt_wishlist_name":"Wish List Name",
+        "txt_must_enter_wish_list_name":"You must enter a wishlist name.",
+        "txt_share_wish_list":"Share Wish List?",
+        "txt_wish_list":"Wish List",
+        "txt_share_wish_list_message": "SHARE THIS WISH LIST WITH FRIENDS",
+        "txt_wish_list_error_msg":"Your Wish List is empty. When you add items to your Wish List they will appear here.",
+        "txt_wish_list_add_msg":"You have no Wish Lists, add one now.",
+        "txt_create_wish_list":"CREATE WISH LIST",
+        "txt_create_wish_list_message":"Fill in the form below to create a new Wish List. Click the 'Create Wish List' button when you're done.",
+        "txt_new_wish_list":"New Wish List",
+        "txt_addresses": "Addresses",
+        "txt_wish_lists":"Wish Lists",
+        "txt_account_setteings":"Account Settings",
+        "txt_items":"Items",
+        "txt_shared":"Shared",
+        "txt_share":"Share",
+        "txt_create":"Create",
+        "txt_already_have_account":"Already have an account?",
+        "txt_sign_in":"Sign in",
+        "txt_heading_maintenance":"Down for Maintenance",
+        "txt_heading_maintenance_description": "  Sorry, this store hasn’t opened yet, or is temporarily down for maintenance. Please check back soon.",
+        "404_error": "404 Error - Page Not Found",
+        "404_eror_msg":"Uh oh, looks like the page you are looking for has moved or no longer exists."
+      },
+      "components": {
+        "cms_library": {
+          "blog_card": {
+            "blog_select_and_save_msg": "Please select and save record"
+          },
+          "product_categories": {
+            "starting_at": "Starting at",
+            "colors": "Colors",
+            "free_samples": "Free Samples",
+            "no_data_to_view": "No data to view"
+          },
+          "store_locations": {
+            "usa": "USA"
+          },
+          "title_section": {
+            "please_enter_heading": "Please enter heading",
+            "please_enter_sub_heading": "Please enter sub heading"
+          },
+          "zig_zag_banner": {
+            "add_title": "Add Title",
+            "add_tag_line": "Add Tag Line",
+            "add_description": "Add Description",
+            "add_button_text": "Add Button Text"
+          }
+        },
+        "common_components": {
+          "loading_placeholder": {
+            "model_record_not_found": "No data to view"
+          },
+          "form_builder": {
+            "form_not_have_fields_to_show_or_form_data_not_found": "Form Might not have fields to show or Form data not found...!",
+            "please_select_form_record": "Please select form record",
+            "fields": {
+              "date_time": {
+                "invalid_date_format": "Invalid date format"
+              },
+              "email": {
+                "should_valid_format": "should be in valid format...!"
+              },
+              "media": {
+                "Drag_drop_file_here_or_browse_file_from_device": "Drag & drop any file here or browse file from device",
+                "supported_formate": "Supported formate"
+              },
+              "phone": {
+                "in_valid_format": "in valid formate"
+              },
+              "select": {
+                "select value": "select value"
+              }
+            },
+            "form_layout_2": {
+              "txt_subscribe": "Subscribe"
+            }
+          }
+        },
+        "e_commerce": {
+          "cart": {
+            "cart_page": {
+              "your_cart": "Cart",
+              "order": "order",
+              "product": "Product",
+              "price": "Price",
+              "quantity": "Quantity",
+              "total": "Total",
+              "order_summary": "order summary",
+              "subtotal": "Subtotal:",
+              "estimated_taxes": "Estimated Taxes:",
+              "grand_total": "Grand total:",
+              "coupon": "Coupon",
+              "coupon_code": "Coupon Code",
+              "add_coupon": "Add Coupon",
+              "apply": "Apply",
+              "remove": "Remove",
+              "cart_to_quote": "Cart to Quote",
+              "continue_shopping": "Continue Shopping",
+              "cart_is_empty": "Your cart is empty",
+              "click_to_shopping": "Click here to continue shopping",
+              "item": "Item",
+              "items": "Items",
+              "checkout": "Checkout",
+              "clear_cart":"Clear Cart",
+              "cart_qty_updated":"Quantity updated successfully",
+              "shopping_cart":"Shopping Cart",
+              "view_ordering_guidelines":"View Ordering Guidelines",
+              "refund_policy":"Refund Policy",
+              "promotion":"Promotion",
+              "discount":"Discount",
+              "gift_code":"Gift Code"
+            },
+            "cart_line_item": {
+              "remove": "remove",
+              "copy": "copy",
+              "edit": "edit",
+              "window": "Window",
+              "usd": "usd",
+              "qty": "Qty:"
+            },
+            "cart_preview": {
+              "cart_is_empty": "Your cart is empty",
+              "view_cart": "View Cart",
+              "checkout_now": "Checkout now",
+              "successful_added": "Successfully added",
+              "out_of":"out of",
+              "items":"item(s)",
+              "free":"Free",
+              "most_popular_swatches_kit":"Most Popular Swatches Kit"
+            },
+            "free_sample_items": {
+              "free_samples": "Free Samples",
+              "free_sample": "Free Sample",
+              "samples": "samples",
+              "sample":"sample"
+            },
+            "free_sample_form": {
+              "form_title": "Enter Shipping Information",
+              "phone_number": "Phone Number",
+              "form_address1": "Address 1",
+              "form_address2": "Address 2",
+              "submit_txt": "Complete Order"
+            }
+          },
+          "forgot_password": {
+            "reset_password": "Reset Your Password",
+            "go_back_to": "Go back to"
+          },
+          "forgot_password_popup": {
+            "forgot_password":"Forgot Password?",
+            "forgot_password_text":"Enter your email address and we'll send you a link to reset your password.",
+            "forgot_password_err_msg":"Please try again and provide the email address associated with your account.",
+            "dont_have_account":"Don't Have an Account?",
+            "register_now":"Register Now"
+          },
+          "product_detail": {
+            "style_and_color": "Style & Color",
+            "live_chat": "Live Chat",
+            "online_now": "Online now",
+            "email": "Email",
+            "send_message": "Send us a message",
+            "call": "Call",
+            "see_how_customer_style_in_home_project": "See how our customers styled this in our home projects.",
+            "submit_photo": "Submit Your Photo",
+            "next_button": "Next",
+            "product_custom_fields": {
+              "product_summary": "Product Summary"
+            },
+            "product_action": {
+              "selected_product_combination_is_currently_unavailable": "The selected product combination is currently unavailable.",
+              "create_new_wishlist": "Create New Wish List",
+              "buy_now": "Buy now",
+              "view_quote": "View Quote",
+              "request_quote": "Request Quote",
+              "free_design_appointment": "Free Design Appointment",
+              "add_to_favourites": "Add to Favourites",
+              "add_to_cart": "Add to cart",
+              "adding_to_cart": "Adding to cart"
+            },
+            "product_image": {
+              "sale": "Sale",
+              "watch_video": "Watch Video",
+              "live_chat": "Live Chat",
+              "online_now": "Online now"
+            },
+            "product_modifiers": {
+              "select": "Select",
+              "product_hight_width_modifiers": {
+                "product_measurements": "Product Measurements",
+                "provide_exact_measurements_we_will_deduct_for_inside_mount": "Provide exact measurements. We will deduct for inside mount.",
+                "inches": "Inches",
+                "measuring_guide": "Measuring Guide",
+                "video_guide": "Video Guide",
+                "select_room": "Select room",
+                "test": "test",
+                "outside_mount":"Outside Mount",
+                "inside_mount":"Inside Mount",
+                "dining_room":"Dining Room",
+                "bed_room": "Bed room",
+                "bath_room": "Bathroom",
+                "living_room":"Living Room",
+                "kitchen": "Kitchen",
+                "kids_room":"Kids Room",
+                "other": "Other"
+              }
+            },
+            "product_options": {
+              "cotton": "Cotton",
+              "html": "HTML",
+              "css": "CSS",
+              "free_sample": "Free Sample",
+              "free_sample_loading": "Adding To Cart",
+              "free_sample_remove": "Remove From Cart",
+              "free_sample_remove_loading": "Removing From Cart"
+
+            },
+            "product_review_model": {
+              "rating": "Rating",
+              "select_rating": " Select Rating ",
+              "star": "Star",
+              "stars": "Stars",
+              "worst": "Worst",
+              "average": "Average",
+              "best": "Best",
+              "rating_field_cannot_be_blank": "The 'Rating' field cannot be blank.",
+              "comments": "Comments",
+              "comment_field_cannot_be_blank": "The 'Comments' field cannot be blank.",
+              "submit_review": "Submit Review",
+              "zerorating":"Very Poor",
+              "onerating": "Poor",
+              "tworating":"Average",
+              "threerating":"Good",
+              "fourrating":"Very Good",
+              "fiverating":"Excellent"
+            },
+            "product_reivews":{
+              "customer_reviews":"Customer Reviews",
+              "write_a_review":"Write a review"
+            },
+            "product_share": {
+              "facebook": "Facebook",
+              "print": "Print",
+              "twitter": "Twitter",
+              "pinterest": "Pinterest"
+            },
+            "product_tab_section": {
+              "description": "Description",
+              "warranty": "Warranty",
+              "additional_information": "Additional Information",
+              "customer_reviews": "Customer Reviews",
+              "based_on": "Based on",
+              "on": "on"
+            },
+            "product_variants": {
+              "you_may_also_like": "You may also like"
+            }
+          },
+          "search_preview": {
+            "popularSearchesText": "Popular Searches",
+            "typeText": "Start typing to search",
+            "noProductText": "No Products Found...",
+            "viewAll": "View all",
+            "products": "Products",
+            "categories": "Categories"
+          },
+          "reset_password": {
+            "reset_password": "Reset Your Password"
+          },
+          "recommendation_cart": {
+            "noProductTxt": "No Products Found",
+            "selectWidgetTxt": "Select Widget To view Products",
+            "add_heading": "Add Heading",
+            "add_tag_line": "Add Tag Line"
+          },
+          "product_price": {
+            "txt_price": "Your Price:",
+            "txt_now": "Now:",
+            "txt_save": "You save",
+            "txt_setting": "Setting only"
+          },
+          "product_cell": {
+            "txt_colors": "Colors",
+            "txt_sale": "Sale",
+            "select_wishlist": "Select Wishlist",
+            "create_wishlist": "Create Wish list",
+            "txt_newWishlist": "Create New Wish List",
+            "txt_add_to_wishlist": "Add to Wishlist",
+            "txt_wishlist_name": "Wishlist Name",
+            "click_save_when_done": "Fill in the form below to create a wish list. click the “Save” button when you’re done.",
+            "save": "Save"
+          },
+          "product_card": {
+            "add_title": "Add Title",
+            "add_tag_line": "Add Tag Line",
+            "product_listing": {
+              "txt_noData": "No data found",
+              "txt_selectSource": "Please Select Source"
+            }
+          },
+          "checkout": {
+            "manage_cart": "Click here to manage your cart"
+          },
+          "compare_products": {
+            "txt_compare_products": "Compare Products",
+            "txt_comparing": "Comparing",
+            "txt_products": "Products",
+            "txt_show_product": "Show Product",
+            "txt_description": "Description",
+            "txt_rating": "Rating",
+            "txt_no_reviews": "No Reviews",
+            "txt_availability": "Availability",
+            "txt_other_details": "Other Details",
+            "at_least_two_products": "At least 2 products are needed to make a valid comparison.",
+            "continue_shopping": "Click here to continue shopping",
+            "no_item_to_compare": "There is no item to compare. Please select at least 2 products.",
+            "txt_continue_shopping_btn": "Continue Shopping",
+            "txt_clear_all": "Clear All"
+          },
+          "listing_page": {
+            "all_products": {
+              "relevance": "Relevance",
+              "featured_items": "Featured Items",
+              "newest_items": "Newest Items",
+              "low_to_high": "Price: low to high",
+              "high_to_low": "Price: high to low"
+            },
+            "btg_facets": {
+              "txt_all_filters": "All Filters",
+              "txt_filters": "Filters",
+              "txt_apply": "Apply",
+              "txt_clear_all": "Clear All"
+            },
+            "compare_button": {
+              "txt_compare": "Compare"
+            },
+            "facet_listing": {
+              "txt_filter": "Filter",
+              "txt_refined_by": "Refined By",
+              "txt_clear_all": "Clear all",
+              "txt_load_more": "Load More",
+              "txt_update": "Update",
+              "txt_reset": "Reset",
+              "txt_apply": "Apply",
+              "txt_reset_filter": "Reset Filter"
+            },
+            "product_listing": {
+              "category_banner_cell": {
+                "shop_now": "Shop Now"
+              },
+              "txt_results": "Styles",
+              "txt_applied_filters": "Applied Filters",
+              "txt_clear_all": "Clear all",
+              "txt_no_products_found": "No products found"
+            },
+            "search_page": {
+              "txt_for": "for",
+              "result": "Result",
+              "results": "Results"
+            }
+          }
+        },
+        "footer": {
+          "footer_copyright_links": {
+            "terms_and_conditions": "Terms and Conditions",
+            "cookie_settings": "Cookie Settings",
+            "legal": "Legal",
+            "site_map": "Site Map"
+          },
+          "footer_newsletter": {
+            "join_our_mailing_list_for_exclusive_updates_design_inspiration_and_special_offers": "Join our mailing list for exclusive updates, design inspiration, and special offers."
+          },
+          "footer_catalog": {
+            "request_catalog": "Request a Catalog"
+          }
+        },
+        "header": {
+          "my_account": "My Account",
+          "orders": "Orders",
+          "log_out": "Log Out",
+          "create_account": "Create Account",
+          "cart": "Cart",
+          "select_location": "Select Location",
+          "location_search_drawer": {
+            "my_store": "My Store",
+            "visit_store_page": "Visit store page",
+            "directions": "Directions",
+            "mon_sat": "Mon - Sat",
+            "sun": "Sun",
+            "choose_your_location": "Choose Your Location",
+            "detect_current_location": "Detect current location",
+            "using_gps": "Using GPS",
+            "view_all_locations": "View All Locations",
+            "other": "Other",
+            "store": "Store",
+            "stores": "Stores",
+            "monday_et": "Mon",
+            "tuesday_et": "Tue",
+            "wednesday_et": "Wed",
+            "thursday_et": "Thu",
+            "friday_et": "Fri",
+            "saturday_et": "Sat",
+            "sunday_et": "Sun"
+          }
+        }
+      },
+      "sign_up":{
+        "first_name":"First Name",
+        "first_name_msg":"First Name is required.",
+        "last_name":"Last Name",
+        "last_name_msg":"Last Name is required.",
+        "email_address":"Email Address",
+        "email_address_msg":"Email Address is required.",
+        "email_validation_msg":"Email should be in valid format...!",
+        "password":"Password",
+        "password_msg":"Password is required.",
+        "password_validation_msg":"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.",
+        "phone_msg":"Phone is required.",
+        "company":"Company"
+      },
+      "sign_in":{
+        "sign_in":"Sign In",
+        "forgot_pass":"Forgot your password?",
+        "create_acc":"Create an Account",
+        "email": "Email",
+        "email_placeholder":"abc@xyz.com"
+      },
+      "toast_msg_success":{
+        "product_removed_from_cart":"Product removed from cart",
+        "coupon_code_applied":"Coupon Code applied successfully",
+        "remove_product_from_compare":"Removed product from compare",
+        "compare_product_cleard":"Compare products cleard",
+        "min_compare":"At least 2 products are needed to make a valid comparison",
+        "forgot_pass":" We have sent password reset instructions to the registered email id.",
+        "product_added_compare":"Product added to compare",
+        "user_detail_update": "User Updated Successfully.",
+        "address_delete":"Address Deleted Successfully",
+        "address_update" : "Address Updated Successfully",
+        "address_added" : "Address Added Successfully",
+        "whish_list_create":"Wishlist Created",
+        "product_add_to_cart":"Product added to cart",
+        "review_submited":"Review submited successfully",
+        "password_reset":"Password reset successfully",
+        "user_registered":"User registered successfully",
+        "request_sent":"Request Send Sucessfully",
+        "product_added_to_whish_list":"Product added to the wishlist",
+        "product_removed_from_compare":"Product removed from compare",
+        "user_logged_success":"User Logged In Successfully"
+      },
+      "toast_msg_error":{
+          "max_compare_items":"Maximum 4 products can be compared",
+          "something_went_wrong":"Something went wrong, Please try again",
+          "please_enter_coupon_code":"Please Enter Coupon Code",
+          "forgot_password_failed":"Forgot password failed...",
+          "user_name_or_password_invalid":"Username or Password Invalid",
+          "pass_and_confirm_pass_match":"Password and confirm password do not match.",
+          "no_item_selected":"No Item Selected ",
+          "enter_wish_list_name":"Please enter Wish List Name",
+          "review_submit_failed":"Review submit failed",
+          "password_reset_failed":"Password reset failed",
+          "user_exists":"User Already Exists",
+          "sign_up_failed":"SignUp Failed",
+          "form_id_not_found":"Form ID not found"
+      }
+    }
+}

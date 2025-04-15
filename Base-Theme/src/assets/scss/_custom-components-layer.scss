@@ -1,0 +1,27 @@
+@layer components {
+    .container {
+        @apply px-4 md:px-8 max-w-full xl:max-w-[1600px] 2xl:px-[60px];
+    }
+
+    .container-small{
+        @apply container xl:max-w-[1356px];
+    }
+
+    .custom-scrollbar {
+        &::-webkit-scrollbar {
+            @apply w-1;
+        }
+
+        &::-webkit-scrollbar-track {
+            @apply bg-gray-100;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            @apply bg-gray-300;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            @apply bg-gray-500;
+        }
+    }
+}

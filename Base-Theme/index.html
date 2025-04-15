@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="preconnect" href="https://product-images.experro.app/" crossorigin="anonymous">
+  <link rel="dns-prefetch" href="https://product-images.experro.app/">
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="theme-color" content="#000000" />
+  <script type="text/javascript" defer src="https://cdn22.myexperro.com/experro-analytics-library/analytics.min.js"
+    id="exp-analytics-script"></script>
+
+  <script>
+    window['__experro_ssr_request_data__'] = {};
+    window.isRenderingOnServer = window.location.href.indexOf('___i_s_S_S_R___') !== -1;
+    function isMobileInAppBrowser() {
+      const useragent = window.navigator.userAgent || window.navigator.vendor;
+      const BROWSER = {
+        messenger: /\bFB[\w_]+\/(Messenger|MESSENGER)/,
+        facebook: /\bFB[\w_]+\//,
+        twitter: /\bTwitter/i,
+        line: /\bLine\//i,
+        wechat: /\bMicroMessenger\//i,
+        puffin: /\bPuffin/i,
+        miui: /\bMiuiBrowser\//i,
+        instagram: /\bInstagram/i,
+      };
+      return Object.keys(BROWSER).find(key => BROWSER[key].test(useragent));
+    }
+
+    function checkIsHeadlessBrowser() {
+      const isIOSPlatform = /iPhone|iPod|iPad/i;
+      const expectedBrowsers = /Edg|Safari|Chrome|CriOS|Firefox/i;
+      const agent = window.navigator?.userAgent || window.navigator?.vendor;
+      const isMobileInApp = isMobileInAppBrowser();
+      if (isIOSPlatform.test(agent)) {
+        if (isMobileInApp) {
+          window.isRenderingInHeadlessBrowser = false;
+        } else {
+          const isExpectedBrowser = expectedBrowsers.test(agent);
+          window.isRenderingInHeadlessBrowser = (!isExpectedBrowser || /HeadlessChrome/.test(agent) || /Chrome-Lighthouse/.test(agent));
+        }
+      } else {
+        if (isMobileInApp) {
+          window.isRenderingInHeadlessBrowser = false;
+        } else {
+          window.isRenderingInHeadlessBrowser = (!window.chrome && !window.safari && !(agent.indexOf('Firefox') >= 0)) || /HeadlessChrome/.test(agent) || /Chrome-Lighthouse/.test(agent);
+        }
+      }
+    }
+    checkIsHeadlessBrowser();
+  </script>
+  <link rel="manifest" href="/manifest.json" />
+  <title>Excore Theme</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/index.tsx"></script>
+</body>
+
+</html>

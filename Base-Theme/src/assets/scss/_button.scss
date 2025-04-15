@@ -1,0 +1,17 @@
+@layer components {
+    .button-primary {
+        @apply inline-block py-[10px] px-5 text-center text-sm bg-primary text-white font-medium hover:bg-sand-900 focus:outline-none focus:ring-0 focus:ring-violet-400 focus:ring-opacity-75 transition-all;
+    }
+
+    .button-secondary {
+        @apply button-primary py-[9px] bg-transparent text-secondary border border-secondary hover:bg-transparent hover:text-primary hover:border-primary;
+    }
+
+    .button-large {
+        @apply py-[14px];
+    }
+
+    .button-small {
+        @apply py-[6px];
+    }
+}

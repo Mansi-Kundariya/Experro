@@ -1,0 +1,33 @@
+@layer components {
+    .form-input {
+        @apply w-full py-[0.5625rem] px-3 border text-sm border-gray-300;
+    }
+
+    .form-input-large {
+        @apply form-input py-[0.8125rem];
+    }
+
+    .form-select {
+        @apply form-input bg-select-arrow bg-no-repeat bg-[center_right_1rem] bg-[length:16px] appearance-none py-[0.8125rem] pr-10;
+    }
+
+    .form-select-large {
+        @apply form-select py-[0.8125rem];
+    }
+
+    .form-textarea {
+        @apply form-input;
+    }
+
+    .form-label {
+        @apply inline-block text-sm mb-1 text-secondary;
+    }
+
+    .form-error-message {
+        @apply text-xs absolute left-0 top-full text-danger mt-1;
+    }
+
+    .required {
+        @apply text-danger font-bold ml-1;
+    }
+}

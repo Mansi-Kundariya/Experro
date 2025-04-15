@@ -1,0 +1,23 @@
+@layer base {
+
+    html,
+    body {
+        @apply font-primary;
+    }
+
+    body {
+        @apply text-secondary;
+    }
+
+    .icon {
+        @apply inline-block;
+    }
+
+    svg {
+        @apply max-w-full max-h-full;
+    }
+    
+    h1,h2,h3,h4,h5,h6{
+        @apply font-secondary;
+    }
+}

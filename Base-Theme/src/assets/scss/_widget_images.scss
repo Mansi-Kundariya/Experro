@@ -1,0 +1,49 @@
+@layer components{
+  .gjs-f-b1 {
+    &.custom-widget-bg-icon{
+          width: 60px !important;
+          height: 40px !important;
+          margin-bottom: 8px !important;
+          background-size: auto 40px !important;
+          background-position: 0 0 !important;
+          margin: 0 auto;
+    }
+    &.video-widgets {
+        height: 40px;
+        width: 60px ;
+        background-size: auto 40px !important;
+        background-repeat: no-repeat !important;
+        background-position: 0 0 !important;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+      &::before {
+        content: "";
+        display: block;
+        
+        
+      }
+    }
+  }
+  
+  .gjs-blocks-cs {
+    .gjs-block-categories {
+      .gjs-block-category {
+        .gjs-blocks-c {
+          .gjs-block {
+            &:has(.custom-widget-bg-icon) {
+              &:hover {
+                .gjs-f-b1 {
+                  &.custom-widget-bg-icon { 
+                    background-position: -70px 0 !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

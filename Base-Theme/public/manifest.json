@@ -1,0 +1,31 @@
+{
+  "short_name": "Excore",
+  "name": "Excore - Demo Theme",
+  "icons": [
+    {
+      "src": "/excore-fav.png?width=32&height=32",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/excore-fav.png?width=64&height=64",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/excore-fav.png?width=192&height=192",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/excore-fav.png?width=512&height=512",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#ba8751",
+  "orientation": "portrait",
+  "public_url": "https://excore-bigcommerce-demo.experro.com"
+}
